@@ -110,3 +110,21 @@
 }
 
 /* FIM Efeito de luz */
+
+@media screen and (max-width: 900px) {
+    .box {
+      margin-top: 50px;
+    }
+
+    .titulo{
+        text-align: center;
+    }
+
+    .infosLado{
+        margin-top: 50px;
+        width: 90%;
+    }
+    .infosLado .boxInfos{
+        width: 100%;
+    }
+}

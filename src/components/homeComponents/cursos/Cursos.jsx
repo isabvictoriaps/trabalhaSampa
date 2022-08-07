@@ -76,7 +76,7 @@ function Cursos(){
 
             </div>
             <div className='boxListagem infraCont'>
-                    <h3 className='tituloListas'> DICAS PARA O MERCADO DE TRABALHO </h3>
+                    <h3 className='tituloListas'>MERCADO DE TRABALHO </h3>
                     <div className='carrosselCursos'>
                         <CardCurso Categoria="infra" 
                         logotipo={reactBlue}

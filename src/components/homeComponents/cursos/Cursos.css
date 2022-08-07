@@ -73,3 +73,19 @@
 }
 
 /* FIM LISTAGEM DE CURSOS */
+
+@media screen and (max-width: 900px) {
+    .carrosselCursos{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .contCursosGeral{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+}

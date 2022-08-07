@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
+import Navbar from '../components/navbar/Navbar';
 import InicioEquipe from '../components/equipeComponents/inicio/InicioEquipe';
-import Navbar from '../components/navbar/NavbarLogin';
 import SlideVideo from '../components/equipeComponents/slideVideos/SlideVideo';
 import Footer from '../components/footer/Footer';
 

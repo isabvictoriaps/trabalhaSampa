@@ -75,3 +75,11 @@
     color: #141F33;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 900px) {
+    .boxNavbar {
+      display: flex;
+      flex-direction: column;
+    }
+}
