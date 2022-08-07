@@ -14,7 +14,7 @@ function Navbar(){
 
             <div>
                 <ul className='navBarLinks'>
-                    <li className='link'><a href='#sobreMomento'>Nosso propósito</a></li>
+                    <li className='link'><a href='#sobreMomento'>Propósito</a></li>
                     <li className='link'><a href='#cursos'>Vagas</a></li>
                     <li className='link'><a href='#cursos'>Capacitações</a></li>
                 </ul>

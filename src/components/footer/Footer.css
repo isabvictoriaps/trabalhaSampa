@@ -92,3 +92,22 @@
 .footerLinks ul li a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+    .footerLinks{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logoFooter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logoFooter p{
+        width: 100%;
+        text-align: center;
+    }
+}
