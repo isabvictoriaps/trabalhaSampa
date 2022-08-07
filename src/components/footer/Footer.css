@@ -120,4 +120,8 @@
     .footer{
         width: 100%;
     }
+
+    .lang{
+        margin-top: 15px;
+    }
 }
