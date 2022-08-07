@@ -29,3 +29,18 @@
     left: -6%; 
     top: 12%;
 }
+
+@media screen and (max-width: 900px) {
+    .boxIcon{
+        padding: 1.6rem;
+        width: 32px;
+        height: 32px;
+        background-color: #fff;
+        border-radius: 100%;
+        border: 3px solid var(--azul-primario);
+    
+        position: absolute;
+        left: -15%; 
+        top: 1%;
+    }
+}
