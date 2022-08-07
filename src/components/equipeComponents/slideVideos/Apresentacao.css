@@ -1,0 +1,110 @@
+.contCardVideo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 100vh;
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    font-size: 4.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 450px;
+    border-radius: 12px;
+    margin-bottom: 6rem;
+    
+}
+
+.video iframe {
+    display: flex;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.person {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 320px;
+    height: 80px;
+    background-color: #0057FF;
+    border-radius: 8px;
+    margin-top: 410px;
+    padding: 0 10px;
+    z-index: 1;
+}
+
+.avatarPerson {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.avatarPerson img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.person p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.softSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1170px;
+    height: 100%;
+}
+
+.softTitle {
+    display: flex;
+    align-items: center;
+}
+
+.softTitle p {
+    font-size: 2rem;
+}
+
+.btnSoft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono", sans-serif;
+    width: 140px;
+    height: 25px;
+    border-radius: 65px;
+    background-color: #011236;
+    color: #0057FF;
+    border: 1px solid #0057FF;
+    margin-left: 20px;
+}
+
+.textOne {
+    background-color: #011236;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-left: 6px solid #0057FF;
+    margin: 2rem 0;
+}
+
+.textOne p, .textTwo p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #F5F5F5;
+}
+

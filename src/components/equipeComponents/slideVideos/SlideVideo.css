@@ -1,0 +1,45 @@
+.contVideo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideVideos {
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+    height: inherit;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideItems {
+    display: flex;
+    transition: all ease-in-out .3s;
+}
+.navgation {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    position: absolute;
+    top: 30%;   
+}
+
+.iconNavgation {
+    font-size: 4rem;
+    color: #0057FF;
+    cursor: pointer;
+    background-color: #011236;
+    border-radius: 50%;
+    transition: all ease .2s;
+}
+
+.iconNavgation:hover{
+    color: #E52E91;
+}
