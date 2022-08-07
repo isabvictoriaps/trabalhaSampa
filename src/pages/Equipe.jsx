@@ -8,7 +8,7 @@ import Footer from '../components/footer/Footer';
 function Equipe(){
     return (
        <div>
-            <NavbarLogin />
+            <Navbar />
             <InicioEquipe />
             <SlideVideo />
             <Footer />
