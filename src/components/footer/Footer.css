@@ -4,10 +4,8 @@
 .footer {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
     background-color: #01050D;
     width: 100%;
     height: 100%;
@@ -109,5 +107,17 @@
     .logoFooter p{
         width: 100%;
         text-align: center;
+    }
+
+    .footerCopy{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer{
+        width: 100%;
     }
 }
